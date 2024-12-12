@@ -1,0 +1,18 @@
+class Solution {
+    public int nthRoot(int n, int m) {
+        // code here
+        double root = Math.pow(m, 1.0 / n);
+
+        // Round the result to the nearest integer
+        int roundedRoot = (int) Math.round(root);
+
+        // Verify if it's an exact integer root
+        if (Math.pow(roundedRoot, n) == m) {
+            return roundedRoot;
+        } 
+        
+        else {
+            return -1;
+        }
+    }
+}
