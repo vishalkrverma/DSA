@@ -1,0 +1,52 @@
+// MERGE SORT IMPLEMENTATION IN JAVA
+class Solution {
+    void mergeSort(int arr[], int l, int r) {
+        // code here
+        if(l<r){
+           int mid=(l+r)/2;
+            mergeSort(arr,l,mid);
+            mergeSort(arr,mid+1,r);
+            merge(arr,l,mid,r);
+        }
+    }
+        public static void merge(int[] arr,int left,int mid,int right){
+            int n1=mid-left+1;
+            int n2=right-mid;
+            
+            // CREATE THE ARRAY SO THAT WE USED IT TO STORE THE LEFT AND RIGHT ELEMENTS WHICH HELP US TO SORT THE ARRAY EASILY 
+            int[] leftArr=new int[n1];
+            int[] rightArr=new int[n2];
+            
+            for(int i=0;i<n1;i++){
+                leftArr[i]=arr[left+i];
+            }
+            for(int i=0;i<n2;i++){
+                rightArr[i]=arr[mid+1+i];
+            }
+// HERE WE USE THE TWO-WAY MERGE SORT ALGORITHM TO SO THAT COMAPARE AND STORE THE VALUE INTO THE ORIGINAL ARRAY
+            int i=0,j=0,k=left;
+            while(i<n1 && j<n2){
+                if(leftArr[i]<rightArr[j]){
+                    arr[k]=leftArr[i];
+                    i++;
+                }
+                else{
+                    arr[k]=rightArr[j];
+                    j++;
+                }
+                k++;
+            }
+            // STORE THE ELEMENT OF LEFT INTO THE ARRAY WHICH ARE NOT INSERTED YET INTO THE ORIGINAL ARRAY
+            while(i<n1){
+                arr[k]=leftArr[i];
+                i++;
+                k++;
+            }
+            // STORE THE ELEMENTS OF THE RIGHT ARRAY INTO THE PARENT ARRAY WHICH ARE NOT STORED YET INTO IT
+            while(j<n2){
+                arr[k]=rightArr[j];
+                j++;
+                k++;
+            }
+    }
+}
