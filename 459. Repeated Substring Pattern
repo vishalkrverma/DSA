@@ -1,0 +1,27 @@
+class Solution {
+public boolean repeatedSubstringPattern(String s) {
+    int n = s.length();
+        
+// If the string length is 1 or if the length is odd, it cannot have a repeated pattern
+        if (n <= 1) return false;
+
+    // Check possible substring lengths that divide the original string length
+        for (int len = 1; len <= n / 2; len++) {
+    // If the length divides the string, check if the substring of that length can form the entire string
+            if (n % len == 0) {
+                String sub = s.substring(0, len); // Take the substring of length len
+                int times = n / len; // Calculate how many times it should repeat
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < times; i++) {
+                    sb.append(sub);
+                }
+                // If the formed string matches the original string, return true
+                if (sb.toString().equals(s)) {
+                    return true;
+                }
+            }
+        }
+        // If no repeated pattern is found, return false
+        return false;
+    }
+}
