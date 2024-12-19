@@ -1,0 +1,22 @@
+class Solution {
+    // Function to find hIndex
+    public int hIndex(int[] citations) {
+        
+        // Sort the function so that we get the number of time 
+        //  an element should be repeated
+         Arrays.sort(citations);
+        int n = citations.length;
+
+        // In this we check if arr[i] is present at arr[n-i] 
+        // return arr[i];
+        for (int i = 0; i < n; i++) {
+        
+            int h = n - i; 
+            if (citations[i] >= h) {
+                return h;
+            }
+        }
+
+        return 0;
+    }
+}
