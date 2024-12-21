@@ -1,0 +1,46 @@
+class Solution {
+    static void dfs(char mat[][], int i, int j, int rows, int cols) {
+        // Base case: out of bounds or not 'O'
+        if (i < 0 || j < 0 || i >= rows || j >= cols || mat[i][j] != 'O'){
+            return; // Stop the recursion if it's out of bounds or not 'O'
+        }
+
+        mat[i][j] = 'T'; // Mark the current 'O' cell as 'T'
+        // Recursively explore all four directions (down, up, right, left)
+        dfs(mat, i + 1, j, rows, cols); // Down
+        dfs(mat, i - 1, j, rows, cols); // Up
+        dfs(mat, i, j + 1, rows, cols); // Right
+        dfs(mat, i, j - 1, rows, cols); // Left
+    }
+
+    // Function to fill the matrix and replace surrounded 'O's with 'X's
+    static char[][] fill(char mat[][]) {
+        int rows = mat.length;
+        int cols = mat[0].length;
+
+        // Step 1: Mark all 'O' cells connected to the borders
+        // Traverse left and right borders
+        for (int i = 0; i < rows; i++) {
+            if (mat[i][0] == 'O') dfs(mat, i, 0, rows, cols);         // Left border
+        if (mat[i][cols - 1] == 'O') dfs(mat, i, cols - 1, rows, cols); // Right border
+        }
+
+        // Traverse top and bottom borders
+        for (int j = 0; j < cols; j++) {
+            if (mat[0][j] == 'O') dfs(mat, 0, j, rows, cols);         // Top border
+           if (mat[rows - 1][j] == 'O') dfs(mat, rows - 1, j, rows, cols); // Bottom border
+        }
+
+        // Step 2: Replace all 'O' with 'X' (surrounded 'O' cells)
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (mat[i][j] == 'O') {
+                    mat[i][j] = 'X'; // Replace surrounded 'O' with 'X'
+                } else if (mat[i][j] == 'T') {
+                    mat[i][j] = 'O'; // Restore border-connected 'O' (marked as 'T')
+                }
+            }
+        }
+        return mat;
+    }
+}
