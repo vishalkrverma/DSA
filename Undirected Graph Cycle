@@ -1,0 +1,34 @@
+class Solution {
+      static boolean detectCycle(ArrayList<ArrayList<Integer>> adj, boolean[] vis, int curr, int parent) {
+        vis[curr] = true;
+        // Traverse all neighbors of the current node
+        for (int neighbor : adj.get(curr)) {
+            // If the neighbor is not visited, recursively check for a cycle
+            if (!vis[neighbor]) {
+                if (detectCycle(adj, vis, neighbor, curr)) {
+                    return true;
+                }
+            } 
+            // If the neighbor is visited and is not the parent, a cycle exists
+            else if (neighbor != parent) {
+                return true;
+            }
+        }
+        return false;
+    }
+    // Function to detect cycle in an undirected graph.
+    public boolean isCycle(ArrayList<ArrayList<Integer>> adj) {
+        int n = adj.size(); // Number of vertices
+        boolean[] vis = new boolean[n]; // Visited array
+
+        // Check for a cycle in each component of the graph
+        for (int i = 0; i < n; i++) {
+            if (!vis[i]) {
+                if (detectCycle(adj, vis, i, -1)) {
+                    return true;
+                }
+            }
+        }
+        return false; //
+    }
+}
