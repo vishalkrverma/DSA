@@ -1,0 +1,59 @@
+class Solution {
+    public void setMatrixZeroes(int[][] mat) {
+        int rows = mat.length;
+        int cols = mat[0].length;
+
+        boolean firstRowZero = false;
+        boolean firstColZero = false;
+        // Step 1: Determine if the first row and column should be zero
+        for (int j = 0; j < cols; j++) {
+            if (mat[0][j] == 0) {
+                firstRowZero = true;
+                break;
+            }
+        }
+        for (int i = 0; i < rows; i++) {
+            if (mat[i][0] == 0) {
+                firstColZero = true;
+                break;
+            }
+        }
+        // Step 2: Use the first row and column as markers for the rest of the matrix
+        for (int i = 1; i < rows; i++) {
+            for (int j = 1; j < cols; j++) {
+                if (mat[i][j] == 0) {
+                    mat[i][0] = 0;
+                    mat[0][j] = 0;
+                }
+            }
+        }
+        // Step 3: Update the matrix based on the markers in the first row and column
+        for (int i = 1; i < rows; i++) {
+            if (mat[i][0] == 0) {
+                for (int j = 1; j < cols; j++) {
+                    mat[i][j] = 0;
+                }
+            }
+        }
+        for (int j = 1; j < cols; j++) {
+            if (mat[0][j] == 0) {
+                for (int i = 1; i < rows; i++) {
+                    mat[i][j] = 0;
+                }
+            }
+        }
+
+        // Step 4: Update the first row and column if needed
+        if (firstRowZero) {
+            for (int j = 0; j < cols; j++) {
+                mat[0][j] = 0;
+            }
+        }
+
+        if (firstColZero) {
+            for (int i = 0; i < rows; i++) {
+                mat[i][0] = 0;
+            }
+        }
+    }
+}
