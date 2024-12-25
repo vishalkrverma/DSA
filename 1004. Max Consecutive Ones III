@@ -1,0 +1,23 @@
+class Solution {
+    public int longestOnes(int[] nums, int k) {
+
+    int start=0; // HELPS TO TACKLE LEFT POINTER
+    int cnt=0;  // HELPS TO COUNT THE NO'S OF 1
+    int zero=0; // CHECK THE BASE CONDITIONS
+
+    for(int i=start;i<nums.length;i++){
+        if(nums[i]==0){
+            zero++; // COUNT THE NUMBER OF ZERO'S WHICH IS LESS THAN K OR NOT
+        }
+       while(zero>k){
+           if(nums[start]==0){  //MOVE THE LEFT POINTER(START) BY ONE 
+               zero--; 
+    //IT WILL GIVE MAXIMUNM NO. OF ZERO BY REMOVING ONE ZERO FROM LIMITING SIZE
+           }
+           start++;// INCREASE THE LEFT POINTER AS THE CONDITION HITS THE BASE CASE
+       }
+       cnt=Math.max(cnt,i-start+1);// FIND REQUIRED LENGTH
+    }
+        return cnt;  // RETURN THE RESULT
+    }
+}
