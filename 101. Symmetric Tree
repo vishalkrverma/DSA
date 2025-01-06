@@ -1,0 +1,20 @@
+class Solution {
+    static boolean checkSymmetry(TreeNode leftTree,TreeNode rightTree){
+
+        if(leftTree == null && rightTree==null){
+            return true;
+        }
+// check if one contains value and other is null then return false
+        if(leftTree == null || rightTree==null){
+            return false;
+        }
+// call the function recursively and check whether the conditions is true or notw
+         return (leftTree.val==rightTree.val) && 
+            checkSymmetry(leftTree.left,rightTree.right) 
+            && checkSymmetry(leftTree.right,rightTree.left);
+    }
+    public boolean isSymmetric(TreeNode root) {
+        if(root== null) return true;
+     return checkSymmetry(root.left,root.right);   
+    }
+}
