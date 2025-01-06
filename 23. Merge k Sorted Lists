@@ -1,0 +1,86 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+          
+   if (lists == null || lists.length == 0) {
+            return null;
+        }
+
+        PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
+
+        for (ListNode node : lists) {
+            if (node != null) {
+                pq.offer(node);
+            }
+        }
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
+
+        while (!pq.isEmpty()) {
+            ListNode smallest = pq.poll();
+            tail.next = smallest;
+            tail = tail.next;
+
+            if (smallest.next != null) {
+                pq.offer(smallest.next);
+            }
+        }
+        return dummy.next;
+
+    }
+}
+
+
+
+
+
+    // // BRUTE FORCE APPROACH FOR SOLVING IT   
+    // if(lists==null || lists.length==0) return null;
+    //  ArrayList<Integer> al=new ArrayList<>();
+    //    ListNode head=new ListNode(0);
+    //    ListNode temp=head;
+    //    for(ListNode list:lists){
+    //      while(list!=null){
+    //          al.add(list.val);
+    //          list=list.next;
+    //     }
+    //    }
+    //    Collections.sort(al);
+    //    for(int val:al){
+    //     temp.next=new ListNode(val);
+    //     temp=temp.next;
+    //    } 
+    //    return head.next;
+
+
+
+
+
+
+// most wrost time complexity
+
+
+    //  while(true){
+    //     int p=0;
+    //     for(int i=0;i<lists.length;i++){
+    //         if(lists[p]==null || (lists[i]!=null && lists[p].val>lists[i].val)){
+    //             p=i;
+    //         }
+    //     }
+    //     if(lists[p]==null){
+    //         break;
+    //     }
+    //     temp.next=lists[p];
+    //     temp=temp.next;
+    //     lists[p]=lists[p].next;
+    //  }
+    //   return head.next;
