@@ -1,0 +1,28 @@
+class Solution {
+    public int xorAllNums(int[] A, int[] B) {
+         int xorA = 0, xorB = 0;
+
+        // Compute the XOR of all elements in A
+        for (int num : A) {
+            xorA ^= num;
+        }
+        // Compute the XOR of all elements in B
+        for (int num : B) {
+            xorB ^= num;
+        }
+        
+        int result = 0;
+
+        // If the size of B is odd, each element of A contributes to the final XOR
+        if (B.length % 2 == 1) {
+            result ^= xorA;
+        }
+
+        // If the size of A is odd, each element of B contributes to the final XOR
+        if (A.length % 2 == 1) {
+            result ^= xorB;
+        }
+
+        return result;
+    }
+}
