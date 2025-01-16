@@ -1,0 +1,30 @@
+class Solution {
+    public int maxLen(int[] arr) {
+        
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==0){
+                arr[i]=-1;
+            }
+        }
+        int sum=0;
+        int k=0;
+        int maxLen=0;
+        HashMap<Integer,Integer> mp=new HashMap<>();
+        
+        
+        for(int i=0;i<arr.length;i++){
+             sum+=arr[i];
+             if(sum==k){
+                 maxLen=i+1;
+             }
+            if(mp.containsKey(sum-k)){
+                int len=i-mp.get(sum-k);
+                maxLen=Math.max(maxLen,len);
+            }
+            if(!mp.containsKey(sum)){
+                mp.put(sum,i);
+            }
+        }
+        return maxLen;
+    }
+}
