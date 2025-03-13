@@ -1,0 +1,27 @@
+class Solution {
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
+        TreeMap<Integer, List<int[]>> map = new TreeMap<>();
+        List<List<Integer>> ans = new ArrayList<>();
+        traverse(root, 0, 0, map);
+
+        for (List<int[]> nodes : map.values()) {
+            Collections.sort(nodes, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
+            List<Integer> column = new ArrayList<>();
+            for (int[] node : nodes) {
+                column.add(node[1]);
+            }
+            ans.add(column);
+        }
+        return ans;
+    }
+
+    private void traverse(TreeNode root, int row, int col, TreeMap<Integer, List<int[]>> map) {
+        if (root == null) return;
+
+        map.putIfAbsent(col, new ArrayList<>());
+        map.get(col).add(new int[]{row, root.val});
+
+        traverse(root.left, row + 1, col - 1, map);
+        traverse(root.right, row + 1, col + 1, map);
+    }
+}
