@@ -1,0 +1,22 @@
+class Solution {
+    public long maximumTripletValue(int[] nums) {
+        int n = nums.length;
+        long res = 0;
+
+        // Step 1: Precompute maxRight array
+        long[] maxRight = new long[n];
+        maxRight[n - 1] = nums[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            maxRight[i] = Math.max(nums[i], maxRight[i + 1]);
+        }
+
+        // Step 2: Iterate through the array to find the maximum triplet value
+        long maxLeft = nums[0];
+        for (int i = 1; i < n - 1; i++) {
+            res = Math.max(res, (maxLeft - nums[i]) * maxRight[i + 1]);
+            maxLeft = Math.max(maxLeft, nums[i]);
+        }
+
+        return res;
+    }
+}
