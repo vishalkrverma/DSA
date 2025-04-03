@@ -1,0 +1,35 @@
+// BRUTE FORCE APPROACH
+class Solution {
+    public long maximumTripletValue(int[] nums) {
+        long res=0;
+
+       for(int i=0;i<nums.length;i++){
+          for(int k=nums.length-1;k>i;k--){
+              int j=i+1;
+              while(j<k){
+                res=Math.max(res,((long)nums[i] - nums[j]) * nums[k]);
+                j++;
+              }
+          }
+       }
+       return  res;
+    }
+}
+
+// OPTIMIZED APPROACH
+
+class Solution {
+    public long maximumTripletValue(int[] nums) {
+     long res = 0;
+        int max = nums[0];
+        for (int i = 1; i < nums.length - 1; i++)
+        {
+            for (int j = i + 1; j < nums.length; j++)
+            {
+                res = Math.max(res, (long) (max - nums[i]) * (long) nums[j]);
+            }
+            max = Math.max(nums[i], max);
+        }
+        return res;
+    }
+}
