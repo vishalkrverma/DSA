@@ -1,0 +1,29 @@
+class Solution {
+
+    private static void helper(TreeNode root,List<List<Integer>> res,List<Integer> curr,
+                int targetSum,int currSum){
+        if(root==null) return ;
+
+           curr.add(root.val);
+           currSum+=root.val;
+
+           if(root.left==null && root.right==null && currSum==targetSum){
+              res.add(new ArrayList<>(curr));
+           }
+           else{
+            helper(root.left,res,curr,targetSum,currSum);
+            helper(root.right,res,curr,targetSum,currSum);
+           }
+        // THIS IS USED FOR BACKTRACKING 
+            curr.remove(curr.size()-1);
+        }
+
+
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+        List<List<Integer>> res=new ArrayList<>();
+        List<Integer> sub=new ArrayList<>();
+        if(root==null) return res;
+        helper(root,res,sub,targetSum,0);
+        return res;
+    }
+}
