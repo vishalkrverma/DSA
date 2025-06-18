@@ -1,51 +1,39 @@
-
-import java.util.Arrays;
-
 class Solution {
     public int minimumCoins(int[] arr, int k) {
+        // code here
         Arrays.sort(arr);
-        int n = arr.length;
+        int n=arr.length;
+        int[] prefix=new int[n+1];
         
-        // Prefix sum for quick removal sum computation
-        long[] prefixSum = new long[n + 1];
-        for (int i = 0; i < n; i++) {
-            prefixSum[i + 1] = prefixSum[i] + arr[i];
-        }
-
-        long minRemoval = Long.MAX_VALUE;
-        
-        for (int i = 0; i < n; i++) {
-            int low = arr[i];
-            int high = low + k;
-
-            // Find the rightmost index j where arr[j] <= high
-            int j = upperBound(arr, high); // exclusive
-
-            // Coins to remove from [0..i-1]
-            long removeLeft = prefixSum[i];
-
-            // Coins to remove from [j..n-1]
-            long removeRight = prefixSum[n] - prefixSum[j] - (long)(n - j) * high;
-
-            long totalRemove = removeLeft + removeRight;
-            minRemoval = Math.min(minRemoval, totalRemove);
+        for(int i=0;i<n;i++){
+            prefix[i+1]=prefix[i]+arr[i];
         }
         
-        return (int)minRemoval;
+        int ans=Integer.MAX_VALUE;
+        for(int i=0;i<n;i++){
+            int remLeft=prefix[i];
+            int upper=upperBound(arr,arr[i]+k);
+            int remRight=prefix[n]-prefix[upper]-(n-upper)*(arr[i]+k);
+            ans=Math.min(ans,remLeft+remRight);
+
+        }
+        return ans;
     }
-
-    // Custom upperBound: first index where arr[i] > key
-    private int upperBound(int[] arr, int key) {
-        int low = 0, high = arr.length;
-        while (low < high) {
-            int mid = (low + high) / 2;
-            if (arr[mid] <= key) {
-                low = mid + 1;
-            } else {
-                high = mid;
+    static int upperBound(int[]  arr,int v){
+        int l=0;
+        int hi=arr.length-1;
+        int ans=-1;
+        
+        while(l<=hi){
+            int mid=(l+hi)/2;
+            if(arr[mid]<=v){
+                l=mid+1;
+                ans=mid+1;
+            }
+            else{
+                hi=mid-1;
             }
         }
-        return low;
+        return ans;
     }
 }
-
