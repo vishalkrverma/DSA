@@ -1,29 +1,24 @@
 class Solution {
     public static String maxSubseq(String s, int k) {
         // code here
-         Deque<Character> stack = new ArrayDeque<>();
-        int n = s.length();
-
-        for (int i = 0; i < n; i++) {
-            char ch = s.charAt(i);
-            while (!stack.isEmpty() && ch > stack.peekLast() && k > 0) {
-                stack.pollLast();
+        int n=s.length();
+        Deque<Character> dq=new ArrayDeque<>();
+        
+        for(int i=0;i<n;i++){
+            char ch=s.charAt(i);
+            while(!dq.isEmpty() && ch> dq.peekLast() && k>0){
+                dq.pollLast();
                 k--;
             }
-            stack.addLast(ch);
+            dq.addLast(ch);
         }
-
-        // If we still have deletions left, remove from the end
-        while (k-- > 0) {
-            stack.pollLast();
+        while(k-->0){
+            dq.pollLast();
         }
-
-        // Build the result
-        StringBuilder sb = new StringBuilder();
-        for (char c : stack) {
+        StringBuilder sb=new StringBuilder();
+        for(Character c:dq){
             sb.append(c);
         }
-
         return sb.toString();
     }
 }
