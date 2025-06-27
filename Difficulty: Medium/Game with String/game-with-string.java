@@ -13,6 +13,7 @@ class Solution {
             maxHeap.offer(freq);
         }
         
+    // Jo bada wala hoga ohh lhud hi upper aa jayega.....aur usme se value -1 kr denge
         while(k>0 && !maxHeap.isEmpty()){
             int top=maxHeap.poll();
             top--;
