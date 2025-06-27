@@ -36,4 +36,16 @@ class Solution {
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0110-balanced-binary-tree) |
+## Array
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
+## Two Pointers
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
+## Sorting
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 <!---LeetCode Topics End-->
