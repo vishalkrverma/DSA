@@ -1,0 +1,174 @@
+// ======================================================================================
+//  📚 AVL Tree Implementation in Java
+//  ------------------------------------------------
+//  Self-balancing Binary Search Tree using AVL rotations
+//  Supports insertion and auto-balancing
+// ======================================================================================
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        AVLTree tree = new AVLTree();
+        int[] values = {10, 5, 15, 3, 7, 12, 18, 1};
+
+        for (int val : values) {
+            tree.insert(val);
+        }
+
+        System.out.println("\n🌳 AVL Tree Structure:");
+        tree.display();
+
+        System.out.println("\n✅ Is the tree balanced? " + tree.isBalanced());
+    }
+}
+
+// ======================================================================================
+// 🏗️ AVL Tree Class
+// ======================================================================================
+
+class AVLTree {
+
+    // ==================================================================================
+    // 🔹 Node class
+    // ==================================================================================
+    class Node {
+        int val;
+        int height;
+        Node left, right;
+
+        Node(int value) {
+            this.val = value;
+            this.height = 0; // Leaf node height
+        }
+    }
+
+    // Root of the AVL Tree
+    private Node root;
+
+    // ==================================================================================
+    // 🔹 Public insert method
+    // ==================================================================================
+    public void insert(int value) {
+        root = insert(root, value);
+    }
+
+    // ==================================================================================
+    // 🔹 Internal insert with recursive balancing
+    // ==================================================================================
+    private Node insert(Node node, int value) {
+        if (node == null) return new Node(value);
+
+        if (value < node.val) {
+            node.left = insert(node.left, value);
+        } else if (value > node.val) {
+            node.right = insert(node.right, value);
+        } else {
+            return node; // No duplicates allowed
+        }
+
+        // Update height of current node
+        node.height = 1 + Math.max(height(node.left), height(node.right));
+
+        // Balance and return the possibly rotated node
+        return balance(node);
+    }
+
+    // ==================================================================================
+    // 🔹 Get height and balance factor
+    // ==================================================================================
+    private int height(Node node) {
+        return node == null ? -1 : node.height;
+    }
+
+    private int getBalance(Node node) {
+        return node == null ? 0 : height(node.left) - height(node.right);
+    }
+
+    // ==================================================================================
+    // 🔹 Balancing via rotations
+    // ==================================================================================
+    private Node balance(Node node) {
+        int balance = getBalance(node);
+
+        // Left heavy
+        if (balance > 1) {
+            if (getBalance(node.left) < 0) {
+                node.left = leftRotate(node.left); // Left-Right case
+            }
+            return rightRotate(node); // Left-Left case
+        }
+
+        // Right heavy
+        if (balance < -1) {
+            if (getBalance(node.right) > 0) {
+                node.right = rightRotate(node.right); // Right-Left case
+            }
+            return leftRotate(node); // Right-Right case
+        }
+
+        return node; // No rotation needed
+    }
+
+    // ==================================================================================
+    // 🔹 Rotation helpers
+    // ==================================================================================
+    private Node rightRotate(Node y) {
+        Node x = y.left;
+        Node T2 = x.right;
+
+        // Rotate
+        x.right = y;
+        y.left = T2;
+
+        // Update heights
+        y.height = Math.max(height(y.left), height(y.right)) + 1;
+        x.height = Math.max(height(x.left), height(x.right)) + 1;
+
+        return x; // New root
+    }
+
+    private Node leftRotate(Node x) {
+        Node y = x.right;
+        Node T2 = y.left;
+
+        // Rotate
+        y.left = x;
+        x.right = T2;
+
+        // Update heights
+        x.height = Math.max(height(x.left), height(x.right)) + 1;
+        y.height = Math.max(height(y.left), height(y.right)) + 1;
+
+        return y; // New root
+    }
+
+    // ==================================================================================
+    // 🔹 Balance check (for full tree)
+    // ==================================================================================
+    public boolean isBalanced() {
+        return isBalanced(root);
+    }
+
+    private boolean isBalanced(Node node) {
+        if (node == null) return true;
+
+        int balance = getBalance(node);
+        return Math.abs(balance) <= 1 && isBalanced(node.left) && isBalanced(node.right);
+    }
+
+    // ==================================================================================
+    // 🔹 Display tree structure
+    // ==================================================================================
+    public void display() {
+        display(root, "Root");
+    }
+
+    private void display(Node node, String label) {
+        if (node == null) return;
+
+        System.out.println(label + " -> " + node.val + " (h=" + node.height + ")");
+        display(node.left, "  L of " + node.val);
+        display(node.right, "  R of " + node.val);
+    }
+}
