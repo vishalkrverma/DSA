@@ -70,6 +70,7 @@ class Solution {
 ## Design
 |  |
 | ------- |
+| [0885-exam-room](https://github.com/vishalkrverma/DSA/tree/master/0885-exam-room) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1708-design-parking-system](https://github.com/vishalkrverma/DSA/tree/master/1708-design-parking-system) |
 ## Simulation
@@ -88,4 +89,12 @@ class Solution {
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0885-exam-room](https://github.com/vishalkrverma/DSA/tree/master/0885-exam-room) |
+## Ordered Set
+|  |
+| ------- |
+| [0885-exam-room](https://github.com/vishalkrverma/DSA/tree/master/0885-exam-room) |
 <!---LeetCode Topics End-->
