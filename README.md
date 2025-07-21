@@ -145,6 +145,7 @@ class Solution {
 |  |
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/vishalkrverma/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [3396-valid-word](https://github.com/vishalkrverma/DSA/tree/master/3396-valid-word) |
 ## Greedy
 |  |
