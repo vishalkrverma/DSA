@@ -164,4 +164,8 @@ class Solution {
 |  |
 | ------- |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/vishalkrverma/DSA/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
