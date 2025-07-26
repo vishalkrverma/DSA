@@ -103,6 +103,7 @@ class Solution {
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 ## Data Stream
 |  |
@@ -160,6 +161,7 @@ class Solution {
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/vishalkrverma/DSA/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Backtracking
 |  |
@@ -174,4 +176,8 @@ class Solution {
 | ------- |
 | [0176-second-highest-salary](https://github.com/vishalkrverma/DSA/tree/master/0176-second-highest-salary) |
 | [0177-nth-highest-salary](https://github.com/vishalkrverma/DSA/tree/master/0177-nth-highest-salary) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
