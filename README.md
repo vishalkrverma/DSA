@@ -57,6 +57,7 @@ class Solution {
 | ------- |
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0560-subarray-sum-equals-k](https://github.com/vishalkrverma/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -75,6 +76,7 @@ class Solution {
 ## Hash Table
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/vishalkrverma/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vishalkrverma/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 ## Sliding Window
@@ -108,6 +110,7 @@ class Solution {
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/vishalkrverma/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 ## Heap (Priority Queue)
 |  |
