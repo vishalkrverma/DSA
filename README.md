@@ -57,6 +57,7 @@ class Solution {
 | ------- |
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/vishalkrverma/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -106,6 +107,7 @@ class Solution {
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 ## Data Stream
 |  |
