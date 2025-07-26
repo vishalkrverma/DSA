@@ -67,6 +67,7 @@ class Solution {
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
+| [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
 |  |
 | ------- |
@@ -135,6 +136,7 @@ class Solution {
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Stack
 |  |
 | ------- |
