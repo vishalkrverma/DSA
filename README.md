@@ -61,6 +61,7 @@ class Solution {
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/vishalkrverma/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/vishalkrverma/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/vishalkrverma/DSA/tree/master/0238-product-of-array-except-self) |
@@ -187,6 +188,7 @@ class Solution {
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/vishalkrverma/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/vishalkrverma/DSA/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Backtracking
 |  |
