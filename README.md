@@ -59,6 +59,7 @@ class Solution {
 | [0011-container-with-most-water](https://github.com/vishalkrverma/DSA/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vishalkrverma/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -93,6 +94,7 @@ class Solution {
 | ------- |
 | [0001-two-sum](https://github.com/vishalkrverma/DSA/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/vishalkrverma/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
@@ -193,6 +195,7 @@ class Solution {
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
 ## Graph
 |  |
@@ -211,6 +214,7 @@ class Solution {
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 ## Union Find
 |  |
 | ------- |
