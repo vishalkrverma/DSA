@@ -58,6 +58,7 @@ class Solution {
 | [0001-two-sum](https://github.com/vishalkrverma/DSA/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/vishalkrverma/DSA/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
+| [0031-next-permutation](https://github.com/vishalkrverma/DSA/tree/master/0031-next-permutation) |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
@@ -79,6 +80,7 @@ class Solution {
 | ------- |
 | [0011-container-with-most-water](https://github.com/vishalkrverma/DSA/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
+| [0031-next-permutation](https://github.com/vishalkrverma/DSA/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/vishalkrverma/DSA/tree/master/0125-valid-palindrome) |
 | [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
