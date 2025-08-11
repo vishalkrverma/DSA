@@ -68,6 +68,7 @@ class Solution {
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
+| [0074-search-a-2d-matrix](https://github.com/vishalkrverma/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0118-pascals-triangle](https://github.com/vishalkrverma/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vishalkrverma/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -234,6 +235,7 @@ class Solution {
 | ------- |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
+| [0074-search-a-2d-matrix](https://github.com/vishalkrverma/DSA/tree/master/0074-search-a-2d-matrix) |
 ## Union Find
 |  |
 | ------- |
@@ -241,6 +243,7 @@ class Solution {
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/vishalkrverma/DSA/tree/master/0074-search-a-2d-matrix) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/vishalkrverma/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/vishalkrverma/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 <!---LeetCode Topics End-->
