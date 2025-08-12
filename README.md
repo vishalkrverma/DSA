@@ -73,6 +73,7 @@ class Solution {
 | [0118-pascals-triangle](https://github.com/vishalkrverma/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vishalkrverma/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/vishalkrverma/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0204-count-primes](https://github.com/vishalkrverma/DSA/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/vishalkrverma/DSA/tree/master/0238-product-of-array-except-self) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
@@ -141,6 +142,7 @@ class Solution {
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
+| [0204-count-primes](https://github.com/vishalkrverma/DSA/tree/master/0204-count-primes) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 ## Data Stream
@@ -246,4 +248,12 @@ class Solution {
 | [0074-search-a-2d-matrix](https://github.com/vishalkrverma/DSA/tree/master/0074-search-a-2d-matrix) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/vishalkrverma/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/vishalkrverma/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/vishalkrverma/DSA/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/vishalkrverma/DSA/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
