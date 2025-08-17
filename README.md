@@ -87,6 +87,7 @@ class Solution {
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vishalkrverma/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1752-arithmetic-subarrays](https://github.com/vishalkrverma/DSA/tree/master/1752-arithmetic-subarrays) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/vishalkrverma/DSA/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Two Pointers
 |  |
@@ -104,6 +105,7 @@ class Solution {
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1752-arithmetic-subarrays](https://github.com/vishalkrverma/DSA/tree/master/1752-arithmetic-subarrays) |
 ## Hash Table
 |  |
 | ------- |
@@ -118,6 +120,7 @@ class Solution {
 | [0829-subdomain-visit-count](https://github.com/vishalkrverma/DSA/tree/master/0829-subdomain-visit-count) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vishalkrverma/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1752-arithmetic-subarrays](https://github.com/vishalkrverma/DSA/tree/master/1752-arithmetic-subarrays) |
 ## Sliding Window
 |  |
 | ------- |
