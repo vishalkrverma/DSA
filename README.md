@@ -67,6 +67,7 @@ class Solution {
 | [0031-next-permutation](https://github.com/vishalkrverma/DSA/tree/master/0031-next-permutation) |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/vishalkrverma/DSA/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/vishalkrverma/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
@@ -146,6 +147,7 @@ class Solution {
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/vishalkrverma/DSA/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/vishalkrverma/DSA/tree/master/0204-count-primes) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
@@ -242,6 +244,7 @@ class Solution {
 | ------- |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/vishalkrverma/DSA/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/vishalkrverma/DSA/tree/master/0074-search-a-2d-matrix) |
 ## Union Find
 |  |
