@@ -1,31 +1,27 @@
-// User function Template for Java
-
 import java.util.HashMap;
 
 class Solution {
-    public int smallestSubstring(String S) {
+    public int smallestSubstring(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
-        int left = 0;
-        int minLength = Integer.MAX_VALUE;
+        int cnt = Integer.MAX_VALUE;
+        int j = 0;
 
-        for (int right = 0; right < S.length(); right++) {
-            char currentChar = S.charAt(right);
-            map.put(currentChar, map.getOrDefault(currentChar, 0) + 1);
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            map.put(c, map.getOrDefault(c, 0) + 1);
 
-            // Try to shrink the window from the left as long as it contains all 3 characters
             while (map.size() == 3) {
-                minLength = Math.min(minLength, right - left + 1);
+                cnt = Math.min(cnt, i - j + 1);
 
-                char leftChar = S.charAt(left);
+                char leftChar = s.charAt(j);
                 map.put(leftChar, map.get(leftChar) - 1);
                 if (map.get(leftChar) == 0) {
                     map.remove(leftChar);
                 }
-                left++;
+                j++;
             }
         }
 
-        return (minLength == Integer.MAX_VALUE) ? -1 : minLength;
+        return (cnt == Integer.MAX_VALUE) ? -1 : cnt;
     }
 }
-
