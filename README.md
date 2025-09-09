@@ -145,6 +145,7 @@ class Solution {
 | ------- |
 | [1310-watering-plants](https://github.com/vishalkrverma/DSA/tree/master/1310-watering-plants) |
 | [1708-design-parking-system](https://github.com/vishalkrverma/DSA/tree/master/1708-design-parking-system) |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/vishalkrverma/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 ## Math
 |  |
 | ------- |
@@ -226,6 +227,7 @@ class Solution {
 | [0118-pascals-triangle](https://github.com/vishalkrverma/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vishalkrverma/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0300-longest-increasing-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0300-longest-increasing-subsequence) |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/vishalkrverma/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/vishalkrverma/DSA/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Backtracking
 |  |
@@ -275,4 +277,8 @@ class Solution {
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/vishalkrverma/DSA/tree/master/0044-wildcard-matching) |
+## Queue
+|  |
+| ------- |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/vishalkrverma/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 <!---LeetCode Topics End-->
