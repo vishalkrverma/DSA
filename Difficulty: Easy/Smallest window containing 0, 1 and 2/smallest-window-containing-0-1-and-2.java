@@ -2,27 +2,28 @@
 
 class Solution {
     public int smallestSubstring(String s) {
-      
+        // Code here
+        int count=Integer.MAX_VALUE;
+        int left=0;
+        
+        int n=s.length();
+        
         HashMap<Character,Integer> map=new HashMap<>();
         
-        int cnt=Integer.MAX_VALUE;
-        int j=0;
-        
-        for(int i=0;i<s.length();i++){
+        for(int i=0;i<n;i++){
             char ch=s.charAt(i);
-            map.put(ch,map.getOrDefault(ch,0)+1);
+            map.put(s.charAt(i),map.getOrDefault(s.charAt(i),0)+1);
             
             while(map.size()==3){
-                char temp=s.charAt(j);
-                map.put(temp,map.get(temp)-1);
-                 cnt=Math.min(cnt,i-j+1);
+                count=Math.min(count,i-left+1);
+                map.put(s.charAt(left),map.get(s.charAt(left))-1);
                 
-                if(map.get(temp)==0){
-                    map.remove(temp);
+                if(map.get(s.charAt(left))==0){
+                    map.remove(s.charAt(left));
                 }
-                j++;
+                left++;
             }
         }
-        return cnt==Integer.MAX_VALUE?-1:cnt;
+        return count==Integer.MAX_VALUE ? -1:count;
     }
 };
