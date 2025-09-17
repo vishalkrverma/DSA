@@ -2,17 +2,19 @@
 
 class Solution {
     int isRepeat(String s) {
-        int n = s.length();
-        for (int len = 1; len <= n / 2; len++) {
-            if (n % len == 0) {
-                String pattern = s.substring(0, len);
-                StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < n / len; i++) {
+        
+        
+        int n=s.length();
+        
+        for(int i=1;i<=n/2;i++){
+            if(n%i==0){
+                String pattern=s.substring(0,i);
+                StringBuilder sb=new StringBuilder();
+                
+                for(int j=0;j<n/i;j++){
                     sb.append(pattern);
                 }
-                if (sb.toString().equals(s)) {
-                    return 1;
-                }
+                if(sb.toString().equals(s)) return 1;
             }
         }
         return 0;
