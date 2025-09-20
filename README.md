@@ -86,6 +86,7 @@ class Solution {
 | [0829-subdomain-visit-count](https://github.com/vishalkrverma/DSA/tree/master/0829-subdomain-visit-count) |
 | [0940-fruit-into-baskets](https://github.com/vishalkrverma/DSA/tree/master/0940-fruit-into-baskets) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1036-rotting-oranges](https://github.com/vishalkrverma/DSA/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/vishalkrverma/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1310-watering-plants](https://github.com/vishalkrverma/DSA/tree/master/1310-watering-plants) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/vishalkrverma/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -192,6 +193,7 @@ class Solution {
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
+| [1036-rotting-oranges](https://github.com/vishalkrverma/DSA/tree/master/1036-rotting-oranges) |
 ## Linked List
 |  |
 | ------- |
@@ -263,6 +265,7 @@ class Solution {
 | [0048-rotate-image](https://github.com/vishalkrverma/DSA/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/vishalkrverma/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/vishalkrverma/DSA/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
