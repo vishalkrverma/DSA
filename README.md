@@ -44,6 +44,7 @@ class Solution {
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
+| [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
@@ -190,6 +191,7 @@ class Solution {
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/vishalkrverma/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
+| [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
@@ -247,6 +249,7 @@ class Solution {
 ## Graph
 |  |
 | ------- |
+| [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
 ## Database
 |  |
@@ -270,6 +273,7 @@ class Solution {
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vishalkrverma/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
 ## Binary Search
 |  |
