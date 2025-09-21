@@ -43,6 +43,7 @@ class Solution {
 | [0110-balanced-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0207-course-schedule](https://github.com/vishalkrverma/DSA/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
 | [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
@@ -190,6 +191,7 @@ class Solution {
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vishalkrverma/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/vishalkrverma/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0207-course-schedule](https://github.com/vishalkrverma/DSA/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
 | [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
@@ -249,6 +251,7 @@ class Solution {
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/vishalkrverma/DSA/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
 ## Database
@@ -298,4 +301,8 @@ class Solution {
 |  |
 | ------- |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/vishalkrverma/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/vishalkrverma/DSA/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
