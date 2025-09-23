@@ -105,6 +105,7 @@ class Solution {
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/vishalkrverma/DSA/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/vishalkrverma/DSA/tree/master/0125-valid-palindrome) |
+| [0165-compare-version-numbers](https://github.com/vishalkrverma/DSA/tree/master/0165-compare-version-numbers) |
 | [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
 |  |
@@ -223,6 +224,7 @@ class Solution {
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0115-distinct-subsequences](https://github.com/vishalkrverma/DSA/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/vishalkrverma/DSA/tree/master/0125-valid-palindrome) |
+| [0165-compare-version-numbers](https://github.com/vishalkrverma/DSA/tree/master/0165-compare-version-numbers) |
 | [0829-subdomain-visit-count](https://github.com/vishalkrverma/DSA/tree/master/0829-subdomain-visit-count) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/vishalkrverma/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
