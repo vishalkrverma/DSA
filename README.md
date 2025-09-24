@@ -124,6 +124,7 @@ class Solution {
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/vishalkrverma/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0166-fraction-to-recurring-decimal](https://github.com/vishalkrverma/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/vishalkrverma/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
@@ -162,6 +163,7 @@ class Solution {
 | ------- |
 | [0048-rotate-image](https://github.com/vishalkrverma/DSA/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
+| [0166-fraction-to-recurring-decimal](https://github.com/vishalkrverma/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0204-count-primes](https://github.com/vishalkrverma/DSA/tree/master/0204-count-primes) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/vishalkrverma/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
@@ -225,6 +227,7 @@ class Solution {
 | [0115-distinct-subsequences](https://github.com/vishalkrverma/DSA/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/vishalkrverma/DSA/tree/master/0125-valid-palindrome) |
 | [0165-compare-version-numbers](https://github.com/vishalkrverma/DSA/tree/master/0165-compare-version-numbers) |
+| [0166-fraction-to-recurring-decimal](https://github.com/vishalkrverma/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0829-subdomain-visit-count](https://github.com/vishalkrverma/DSA/tree/master/0829-subdomain-visit-count) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/vishalkrverma/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
