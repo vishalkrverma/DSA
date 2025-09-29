@@ -1,57 +1,40 @@
-import java.util.*;
+// User function Template for Java
 
 class Solution {
     String removeReverse(String s) {
-        int[] freq = new int[26];
-
-        for (char c : s.toCharArray()) {
-            freq[c - 'a']++;
+        // code here
+        HashMap<Character,Integer> map=new HashMap<>();
+        
+        for(int i=0;i<s.length();i++){
+            char ch=s.charAt(i);
+            map.put(ch,map.getOrDefault(ch,0)+1);
         }
-
-        Deque<Character> deque = new LinkedList<>();
-        for (char c : s.toCharArray()) {
-            deque.addLast(c);
-        }
-
-        boolean reversed = false;
-
-        while (true) {
-            boolean removed = false;
-
-            if (!reversed) {
-                // Scan from front
-                Iterator<Character> it = deque.iterator();
-                while (it.hasNext()) {
-                    char c = it.next();
-                    if (freq[c - 'a'] > 1) {
-                        it.remove();
-                        freq[c - 'a']--;
-                        reversed = !reversed;
-                        removed = true;
-                        break;
-                    }
+        StringBuilder sb=new StringBuilder(s);
+        boolean forward=true;
+        int left=0;
+        int right=sb.length()-1;
+        
+        while(left<=right){
+            if(forward){
+                if(map.get(sb.charAt(left))>1){
+                     map.put(sb.charAt(left),map.get(sb.charAt(left))-1);
+                    sb.deleteCharAt(left);
+                    right--;
+                    forward=!forward;
                 }
-            } else {
-                // Scan from back
-                Iterator<Character> it = deque.descendingIterator();
-                while (it.hasNext()) {
-                    char c = it.next();
-                    if (freq[c - 'a'] > 1) {
-                        it.remove();
-                        freq[c - 'a']--;
-                        reversed = !reversed;
-                        removed = true;
-                        break;
-                    }
+                else{
+                    left++;
                 }
             }
-
-            if (!removed) break; // No more duplicates
+            else{
+                if(map.get(sb.charAt(right))>1){
+                    map.put(sb.charAt(right),map.get(sb.charAt(right))-1);
+                    sb.deleteCharAt(right);
+                    forward=!forward;
+                }
+                right--;
+            }
         }
-
-        // Build final result
-        StringBuilder result = new StringBuilder();
-        for (char c : deque) result.append(c);
-        return reversed ? result.reverse().toString() : result.toString();
+        return forward?sb.toString():sb.reverse().toString();
     }
 }
