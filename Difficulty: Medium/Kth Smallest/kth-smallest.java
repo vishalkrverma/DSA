@@ -2,22 +2,19 @@
 
 class Solution {
     public static int kthSmallest(int[] arr, int k) {
-       
-       
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder()); // max-heap
-        int n = arr.length;
-
-        for (int i = 0; i < k; i++) {
-            pq.offer(arr[i]); // Add first k elements
+        // Your code here
+        PriorityQueue<Integer> pq=new PriorityQueue<>(
+            (a,b)->b-a);
+        
+        for(int i=0;i<k;i++){
+            pq.offer(arr[i]);
         }
-
-        for (int i = k; i < n; i++) {
-            if (pq.peek() > arr[i]) {
-                pq.poll();         // Remove largest in heap
-                pq.offer(arr[i]);  // Add smaller element
+        for(int i=k;i<arr.length;i++){
+            if(pq.peek()>arr[i]){
+                pq.poll();
+                pq.offer(arr[i]);
             }
         }
-
         return pq.peek();
     }
 }
