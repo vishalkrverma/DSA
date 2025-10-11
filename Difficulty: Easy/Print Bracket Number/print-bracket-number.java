@@ -3,23 +3,24 @@
 class Solution {
     ArrayList<Integer> bracketNumbers(String str) {
         // code here
-        int count = 0;
-        Stack<Integer> stack = new Stack<>();
-        ArrayList<Integer> result = new ArrayList<>();
-
-        for (char ch : str.toCharArray()) {
-            if (ch == '(') {
-                count++; 
-                stack.push(count);
-                result.add(count);
-            } 
-            else if (ch == ')') {
-                if (!stack.isEmpty()) {
-                    result.add(stack.pop());
+        Stack<Integer> st=new Stack<>();
+        
+        ArrayList<Integer> al=new ArrayList<>();
+        int cnt=0;
+        
+        for(char ch:str.toCharArray()){
+            if(ch=='('){
+                cnt++;
+                st.push(cnt);
+                al.add(cnt);
+            }
+            else if(ch==')'){
+                if(!st.isEmpty()){
+                    
+                al.add(st.pop());
                 }
             }
         }
-
-        return result;
+        return al;
     }
 };
