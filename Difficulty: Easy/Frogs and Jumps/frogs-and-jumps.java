@@ -1,20 +1,24 @@
 // User function Template for Java
 
 class Solution {
-    public int unvisitedLeaves(int N, int leaves, int frogs[]) {
-       
+    public int unvisitedLeaves(int n, int leaves, int frogs[]) {
+        // Code here
         boolean[] visited=new boolean[leaves+1];
         
-        for(int frog:frogs){
-            if(frog<=leaves && visited[frog]) continue;
+        for(int i=0;i<n;i++){
+            int jump=frogs[i];
             
-            for(int i=frog;i<=leaves;i+=frog){
-                visited[i]=true;
+            if(jump>leaves || visited[jump]) continue;
+            
+            for(int j=jump;j<=leaves;j+=jump){
+                visited[j]=true;
             }
         }
+        
         int cnt=0;
-        for(int i=1;i<leaves+1;i++){
-            if(visited[i]==false) cnt++;
+        
+        for(int i=1;i<=leaves;i++){
+            if(!visited[i]) cnt++;
         }
         return cnt;
     }
