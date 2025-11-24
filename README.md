@@ -159,6 +159,7 @@ class Solution {
 | ------- |
 | [1310-watering-plants](https://github.com/vishalkrverma/DSA/tree/master/1310-watering-plants) |
 | [1708-design-parking-system](https://github.com/vishalkrverma/DSA/tree/master/1708-design-parking-system) |
+| [2169-count-operations-to-obtain-zero](https://github.com/vishalkrverma/DSA/tree/master/2169-count-operations-to-obtain-zero) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/vishalkrverma/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3336-water-bottles-ii](https://github.com/vishalkrverma/DSA/tree/master/3336-water-bottles-ii) |
 ## Math
@@ -171,6 +172,7 @@ class Solution {
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/vishalkrverma/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
+| [2169-count-operations-to-obtain-zero](https://github.com/vishalkrverma/DSA/tree/master/2169-count-operations-to-obtain-zero) |
 | [3336-water-bottles-ii](https://github.com/vishalkrverma/DSA/tree/master/3336-water-bottles-ii) |
 ## Data Stream
 |  |
