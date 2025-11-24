@@ -221,6 +221,7 @@ class Solution {
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -238,6 +239,7 @@ class Solution {
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/vishalkrverma/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/vishalkrverma/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
 | [3396-valid-word](https://github.com/vishalkrverma/DSA/tree/master/3396-valid-word) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/vishalkrverma/DSA/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Greedy
@@ -247,6 +249,7 @@ class Solution {
 | [0044-wildcard-matching](https://github.com/vishalkrverma/DSA/tree/master/0044-wildcard-matching) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/vishalkrverma/DSA/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Dynamic Programming
 |  |
