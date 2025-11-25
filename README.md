@@ -131,6 +131,7 @@ class Solution {
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0829-subdomain-visit-count](https://github.com/vishalkrverma/DSA/tree/master/0829-subdomain-visit-count) |
 | [0940-fruit-into-baskets](https://github.com/vishalkrverma/DSA/tree/master/0940-fruit-into-baskets) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/vishalkrverma/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vishalkrverma/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -170,6 +171,7 @@ class Solution {
 | [0166-fraction-to-recurring-decimal](https://github.com/vishalkrverma/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0204-count-primes](https://github.com/vishalkrverma/DSA/tree/master/0204-count-primes) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/vishalkrverma/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [2169-count-operations-to-obtain-zero](https://github.com/vishalkrverma/DSA/tree/master/2169-count-operations-to-obtain-zero) |
