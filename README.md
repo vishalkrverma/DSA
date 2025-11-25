@@ -84,6 +84,7 @@ class Solution {
 | [0300-longest-increasing-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vishalkrverma/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/vishalkrverma/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/vishalkrverma/DSA/tree/master/0717-1-bit-and-2-bit-characters) |
@@ -107,6 +108,7 @@ class Solution {
 | [0031-next-permutation](https://github.com/vishalkrverma/DSA/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/vishalkrverma/DSA/tree/master/0125-valid-palindrome) |
 | [0165-compare-version-numbers](https://github.com/vishalkrverma/DSA/tree/master/0165-compare-version-numbers) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
 |  |
@@ -114,6 +116,7 @@ class Solution {
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1752-arithmetic-subarrays](https://github.com/vishalkrverma/DSA/tree/master/1752-arithmetic-subarrays) |
@@ -222,12 +225,14 @@ class Solution {
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## String
 |  |
 | ------- |
@@ -249,6 +254,7 @@ class Solution {
 | ------- |
 | [0011-container-with-most-water](https://github.com/vishalkrverma/DSA/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/vishalkrverma/DSA/tree/master/0044-wildcard-matching) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
