@@ -102,6 +102,7 @@ class Solution {
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vishalkrverma/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1752-arithmetic-subarrays](https://github.com/vishalkrverma/DSA/tree/master/1752-arithmetic-subarrays) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/vishalkrverma/DSA/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Two Pointers
 |  |
@@ -144,6 +145,7 @@ class Solution {
 | [1264-maximum-number-of-words-you-can-type](https://github.com/vishalkrverma/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vishalkrverma/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1752-arithmetic-subarrays](https://github.com/vishalkrverma/DSA/tree/master/1752-arithmetic-subarrays) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 ## Sliding Window
 |  |
 | ------- |
@@ -195,6 +197,7 @@ class Solution {
 | [0560-subarray-sum-equals-k](https://github.com/vishalkrverma/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
