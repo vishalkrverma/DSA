@@ -129,6 +129,7 @@ class Solution {
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vishalkrverma/DSA/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/vishalkrverma/DSA/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
@@ -176,6 +177,7 @@ class Solution {
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/vishalkrverma/DSA/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/vishalkrverma/DSA/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/vishalkrverma/DSA/tree/master/0070-climbing-stairs) |
 | [0166-fraction-to-recurring-decimal](https://github.com/vishalkrverma/DSA/tree/master/0166-fraction-to-recurring-decimal) |
@@ -244,6 +246,7 @@ class Solution {
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/vishalkrverma/DSA/tree/master/0013-roman-to-integer) |
 | [0044-wildcard-matching](https://github.com/vishalkrverma/DSA/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/vishalkrverma/DSA/tree/master/0079-word-search) |
