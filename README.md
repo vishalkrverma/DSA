@@ -241,6 +241,7 @@ class Solution {
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1021-remove-outermost-parentheses](https://github.com/vishalkrverma/DSA/tree/master/1021-remove-outermost-parentheses) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
 ## Monotonic Stack
 |  |
@@ -260,6 +261,7 @@ class Solution {
 | [0166-fraction-to-recurring-decimal](https://github.com/vishalkrverma/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0829-subdomain-visit-count](https://github.com/vishalkrverma/DSA/tree/master/0829-subdomain-visit-count) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1021-remove-outermost-parentheses](https://github.com/vishalkrverma/DSA/tree/master/1021-remove-outermost-parentheses) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/vishalkrverma/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/vishalkrverma/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
