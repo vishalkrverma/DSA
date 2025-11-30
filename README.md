@@ -190,6 +190,7 @@ class Solution {
 | [1015-smallest-integer-divisible-by-k](https://github.com/vishalkrverma/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/vishalkrverma/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
+| [1903-largest-odd-number-in-string](https://github.com/vishalkrverma/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [2169-count-operations-to-obtain-zero](https://github.com/vishalkrverma/DSA/tree/master/2169-count-operations-to-obtain-zero) |
 | [3336-water-bottles-ii](https://github.com/vishalkrverma/DSA/tree/master/3336-water-bottles-ii) |
 ## Data Stream
@@ -265,6 +266,7 @@ class Solution {
 | [1264-maximum-number-of-words-you-can-type](https://github.com/vishalkrverma/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/vishalkrverma/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
+| [1903-largest-odd-number-in-string](https://github.com/vishalkrverma/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [3396-valid-word](https://github.com/vishalkrverma/DSA/tree/master/3396-valid-word) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/vishalkrverma/DSA/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Greedy
@@ -276,6 +278,7 @@ class Solution {
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vishalkrverma/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
+| [1903-largest-odd-number-in-string](https://github.com/vishalkrverma/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/vishalkrverma/DSA/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Dynamic Programming
 |  |
