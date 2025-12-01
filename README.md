@@ -77,6 +77,7 @@ class Solution {
 | [0075-sort-colors](https://github.com/vishalkrverma/DSA/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/vishalkrverma/DSA/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/vishalkrverma/DSA/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/vishalkrverma/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vishalkrverma/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/vishalkrverma/DSA/tree/master/0128-longest-consecutive-sequence) |
@@ -113,6 +114,7 @@ class Solution {
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/vishalkrverma/DSA/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/vishalkrverma/DSA/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/vishalkrverma/DSA/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/vishalkrverma/DSA/tree/master/0125-valid-palindrome) |
 | [0165-compare-version-numbers](https://github.com/vishalkrverma/DSA/tree/master/0165-compare-version-numbers) |
 | [0457-circular-array-loop](https://github.com/vishalkrverma/DSA/tree/master/0457-circular-array-loop) |
@@ -124,6 +126,7 @@ class Solution {
 | [0016-3sum-closest](https://github.com/vishalkrverma/DSA/tree/master/0016-3sum-closest) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/vishalkrverma/DSA/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/vishalkrverma/DSA/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
