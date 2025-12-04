@@ -239,6 +239,7 @@ class Solution {
 ## Linked List
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/vishalkrverma/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
@@ -356,6 +357,7 @@ class Solution {
 ## Recursion
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/vishalkrverma/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/vishalkrverma/DSA/tree/master/0044-wildcard-matching) |
 ## Queue
 |  |
