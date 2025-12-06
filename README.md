@@ -182,6 +182,7 @@ class Solution {
 | [1310-watering-plants](https://github.com/vishalkrverma/DSA/tree/master/1310-watering-plants) |
 | [1708-design-parking-system](https://github.com/vishalkrverma/DSA/tree/master/1708-design-parking-system) |
 | [2169-count-operations-to-obtain-zero](https://github.com/vishalkrverma/DSA/tree/master/2169-count-operations-to-obtain-zero) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/vishalkrverma/DSA/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/vishalkrverma/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3336-water-bottles-ii](https://github.com/vishalkrverma/DSA/tree/master/3336-water-bottles-ii) |
 ## Math
@@ -243,6 +244,7 @@ class Solution {
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/vishalkrverma/DSA/tree/master/2181-merge-nodes-in-between-zeros) |
 ## Stack
 |  |
 | ------- |
