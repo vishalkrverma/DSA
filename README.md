@@ -37,6 +37,7 @@ class Solution {
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vishalkrverma/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0938-range-sum-of-bst](https://github.com/vishalkrverma/DSA/tree/master/0938-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
@@ -54,6 +55,7 @@ class Solution {
 | [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
+| [0938-range-sum-of-bst](https://github.com/vishalkrverma/DSA/tree/master/0938-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Tree
@@ -69,6 +71,7 @@ class Solution {
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vishalkrverma/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0938-range-sum-of-bst](https://github.com/vishalkrverma/DSA/tree/master/0938-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Array
@@ -384,4 +387,5 @@ class Solution {
 | ------- |
 | [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vishalkrverma/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0938-range-sum-of-bst](https://github.com/vishalkrverma/DSA/tree/master/0938-range-sum-of-bst) |
 <!---LeetCode Topics End-->
