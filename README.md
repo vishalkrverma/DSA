@@ -35,6 +35,7 @@ class Solution {
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
@@ -47,6 +48,7 @@ class Solution {
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0207-course-schedule](https://github.com/vishalkrverma/DSA/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0684-redundant-connection](https://github.com/vishalkrverma/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/vishalkrverma/DSA/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/vishalkrverma/DSA/tree/master/0813-all-paths-from-source-to-target) |
@@ -63,6 +65,7 @@ class Solution {
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1035-cousins-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Array
@@ -372,4 +375,8 @@ class Solution {
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/vishalkrverma/DSA/tree/master/0207-course-schedule) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 <!---LeetCode Topics End-->
