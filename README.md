@@ -199,6 +199,7 @@ class Solution {
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1903-largest-odd-number-in-string](https://github.com/vishalkrverma/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [2169-count-operations-to-obtain-zero](https://github.com/vishalkrverma/DSA/tree/master/2169-count-operations-to-obtain-zero) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/vishalkrverma/DSA/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 | [3336-water-bottles-ii](https://github.com/vishalkrverma/DSA/tree/master/3336-water-bottles-ii) |
 ## Data Stream
 |  |
@@ -245,6 +246,7 @@ class Solution {
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0908-middle-of-the-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0908-middle-of-the-linked-list) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/vishalkrverma/DSA/tree/master/2181-merge-nodes-in-between-zeros) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/vishalkrverma/DSA/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Stack
 |  |
 | ------- |
@@ -254,6 +256,7 @@ class Solution {
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/vishalkrverma/DSA/tree/master/1021-remove-outermost-parentheses) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/vishalkrverma/DSA/tree/master/1717-maximum-score-from-removing-substrings) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/vishalkrverma/DSA/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
