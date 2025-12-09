@@ -34,6 +34,7 @@ class Solution {
 | [0110-balanced-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0173-binary-search-tree-iterator](https://github.com/vishalkrverma/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vishalkrverma/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -70,6 +71,7 @@ class Solution {
 | [0110-balanced-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/vishalkrverma/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0173-binary-search-tree-iterator](https://github.com/vishalkrverma/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0226-invert-binary-tree](https://github.com/vishalkrverma/DSA/tree/master/0226-invert-binary-tree) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vishalkrverma/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -185,6 +187,7 @@ class Solution {
 ## Design
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/vishalkrverma/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0885-exam-room](https://github.com/vishalkrverma/DSA/tree/master/0885-exam-room) |
 | [1477-product-of-the-last-k-numbers](https://github.com/vishalkrverma/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1708-design-parking-system](https://github.com/vishalkrverma/DSA/tree/master/1708-design-parking-system) |
@@ -265,6 +268,7 @@ class Solution {
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/vishalkrverma/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vishalkrverma/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0173-binary-search-tree-iterator](https://github.com/vishalkrverma/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/vishalkrverma/DSA/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/vishalkrverma/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/vishalkrverma/DSA/tree/master/1021-remove-outermost-parentheses) |
@@ -388,8 +392,13 @@ class Solution {
 ## Binary Search Tree
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/vishalkrverma/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/vishalkrverma/DSA/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/vishalkrverma/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/vishalkrverma/DSA/tree/master/0538-convert-bst-to-greater-tree) |
 | [0938-range-sum-of-bst](https://github.com/vishalkrverma/DSA/tree/master/0938-range-sum-of-bst) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/vishalkrverma/DSA/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
