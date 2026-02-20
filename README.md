@@ -157,6 +157,7 @@ class Solution {
 | [0036-valid-sudoku](https://github.com/vishalkrverma/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/vishalkrverma/DSA/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/vishalkrverma/DSA/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/vishalkrverma/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0166-fraction-to-recurring-decimal](https://github.com/vishalkrverma/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0217-contains-duplicate](https://github.com/vishalkrverma/DSA/tree/master/0217-contains-duplicate) |
@@ -174,6 +175,7 @@ class Solution {
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/vishalkrverma/DSA/tree/master/0076-minimum-window-substring) |
 | [0594-longest-harmonious-subsequence](https://github.com/vishalkrverma/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0940-fruit-into-baskets](https://github.com/vishalkrverma/DSA/tree/master/0940-fruit-into-baskets) |
 ## Counting
@@ -285,6 +287,7 @@ class Solution {
 | [0013-roman-to-integer](https://github.com/vishalkrverma/DSA/tree/master/0013-roman-to-integer) |
 | [0044-wildcard-matching](https://github.com/vishalkrverma/DSA/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/vishalkrverma/DSA/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/vishalkrverma/DSA/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/vishalkrverma/DSA/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/vishalkrverma/DSA/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/vishalkrverma/DSA/tree/master/0125-valid-palindrome) |
